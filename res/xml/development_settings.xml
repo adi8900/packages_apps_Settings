@@ -102,6 +102,11 @@
             android:title="@string/ota_disable_automatic_update"
             android:summary="@string/ota_disable_automatic_update_summary" />
 
+        <SwitchPreference
+            android:key="force_authorize_substratum_packages"
+            android:title="@string/force_authorize_substratum_packages_title"
+            android:summary="@string/force_authorize_substratum_packages_summary" />
+
         <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
             android:key="show_cpu_overlay"
             android:title="@string/show_cpu_info"
